@@ -1,4 +1,4 @@
-:root {font-family: monospace; white-space: pre-wrap; margin: 10px; background-color: var(--bg); color: var(--text); --text: #1e1e1e; --bg: #fff;} 
+:root {font-family: 'Courier New', monospace; white-space: pre-wrap; margin: 10px; background-color: var(--bg); color: var(--text); --text: #1e1e1e; --bg: #fff;} 
 
 body {max-width: 70ch;}
 
