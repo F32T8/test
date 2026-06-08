@@ -1,12 +1,13 @@
-body {margin: 2% 4% 2%; background-color: var(--bg); color: var(--text); --text: #121212; --bg: #f9f9f9;} 
+body {margin: 2% 4% 2%; background-color: #121212; color: silver;} 
 
 html{scroll-behavior: smooth;}
 
 columns {
   width: 100%; 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 1fr;
   gap: 10px 3%;
+  align-items: center;
 }
 
 * {font-family: sans-serif; line-height: 1.4;}
@@ -14,20 +15,16 @@ a {color: var(--text);}
 
 p, blockquote {max-width: 90ch;}
 
-hr {border: none; height: 1px; background-color: var(--text); opacity: .1; margin: 25px 0px 25px 0px;}
+hr {border: none; height: 1px; background-color: silver; opacity: .3; margin: 25px 0px 25px 0px;}
 
 .right {text-align: right; max-width: 100%;}
 
-img {width: 100%; border-radius: 10px; border: 1px solid gray;}
+img {width: 100%; border-radius: 6px;}
+
+div.logo {width: 70px; border: none;}
 
 @media (max-width: 1000px) {
 columns {grid-template-columns: 1fr;}
 h1, h2{margin-bottom:0;}
 .right {text-align: left;}
-}
-
-@media (prefers-color-scheme: dark) {
-body{ 
---text: silver;
---bg: #121212;}
 }
